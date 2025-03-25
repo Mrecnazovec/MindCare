@@ -1,7 +1,7 @@
 'use client'
 
 import { Card } from '@/components/ui/Card'
-import { Carousel, CarouselApi, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import { Carousel, CarouselApi, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/Carousel'
 import { HelpsData } from './HelpsData'
 import { useEffect, useState } from 'react'
 
