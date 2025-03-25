@@ -7,7 +7,7 @@ export function MainLayout({ children }: PropsWithChildren<unknown>) {
 		<div className='flex flex-col h-full'>
 			<div className='flex-1'>
 				<Header />
-				<main className='container mx-auto p-5'>{children}</main>
+				<main>{children}</main>
 				<Footer />
 			</div>
 		</div>
