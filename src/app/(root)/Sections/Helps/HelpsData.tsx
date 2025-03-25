@@ -1,0 +1,51 @@
+export const HelpsData = [
+	{
+		src: '/images/carousel-item-0.png',
+		alt: 'Преодолеть страхи',
+		width: 300,
+		height: 360,
+		text: 'Преодолеть страхи',
+	},
+	{
+		src: '/images/carousel-item-1.png',
+		alt: 'Справиться с конфликтами в отношениях',
+		width: 300,
+		height: 360,
+		text: 'Справиться с конфликтами в отношениях',
+	},
+	{
+		src: '/images/carousel-item-2.png',
+		alt: 'Преодолеть кризисные ситуации',
+		width: 300,
+		height: 360,
+		text: 'Преодолеть кризисные ситуации',
+	},
+	{
+		src: '/images/carousel-item-3.png',
+		alt: 'Развить эмоциональный интеллект',
+		width: 300,
+		height: 360,
+		text: 'Развить эмоциональный интеллект',
+	},
+	{
+		src: '/images/carousel-item-0.png',
+		alt: 'Преодолеть страхи',
+		width: 300,
+		height: 360,
+		text: 'Преодолеть страхи',
+	},
+	{
+		src: '/images/carousel-item-1.png',
+		alt: 'Справиться с конфликтами в отношениях',
+		width: 300,
+		height: 360,
+		text: 'Справиться с конфликтами в отношениях',
+	},
+	{
+		src: '/images/carousel-item-2.png',
+		alt: 'Преодолеть кризисные ситуации',
+		width: 300,
+		height: 360,
+		text: 'Преодолеть кризисные ситуации',
+	},
+]
