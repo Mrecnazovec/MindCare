@@ -3,7 +3,7 @@ import { Title } from '@/components/ui/Title'
 import { Button } from '@/components/ui/Button'
 import { SpecialistsList } from './SpecialistsList'
 import { TestSection } from './Test/TestSection'
-import { Choose } from './Choose/Choose'
+import { ChooseSection } from './ChooseSection/ChooseSection'
 
 export function Specialists() {
 	return (
@@ -21,7 +21,7 @@ export function Specialists() {
 					Посмотреть все
 				</Button>
 				<TestSection />
-				<Choose />
+				<ChooseSection />
 			</Container>
 		</div>
 	)

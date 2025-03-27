@@ -1,7 +1,7 @@
 import { Title } from '@/components/ui/Title'
 import Image from 'next/image'
 
-export function Choose() {
+export function ChooseSection() {
 	return (
 		<div className='rounded-[20px] w-full sm:p-12 p-6 bg-[#ECF4FA]'>
 			<Title className='mb-4'>
