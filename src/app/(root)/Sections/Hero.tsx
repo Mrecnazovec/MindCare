@@ -23,7 +23,7 @@ export default function HeroSection() {
 					</p>
 					<div className='mt-6 flex flex-col justify-center gap-5 items-center  md:flex-row'>
 						<Link href=''>
-							<Button variant='primary' className='shadow-button py-6 px-10'>
+							<Button variant='primary' size='main' className='shadow-button py-6 px-10'>
 								Выбрать психолога
 							</Button>
 						</Link>

@@ -2,8 +2,8 @@
 
 import { Card } from '@/components/ui/Card'
 import { Carousel, CarouselApi, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/Carousel'
-import { HelpsData } from './HelpsData'
 import { useEffect, useState } from 'react'
+import { HelpsData } from './HelpsData'
 
 export function HelpsCarousel() {
 	const [api, setApi] = useState<CarouselApi>()
