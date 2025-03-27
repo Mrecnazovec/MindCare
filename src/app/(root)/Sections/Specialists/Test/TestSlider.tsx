@@ -1,9 +1,9 @@
+import { Button } from '@/components/ui/Button'
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from '@/components/ui/Carousel'
+import { Label } from '@/components/ui/form-elements/Label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/RadioGroup'
 import { useEffect, useState } from 'react'
 import { TestData } from './TestData'
-import { Label } from '@/components/ui/Label'
-import { Button } from '@/components/ui/Button'
 
 export function TestSlider() {
 	const [api, setApi] = useState<CarouselApi>()
@@ -52,11 +52,16 @@ export function TestSlider() {
 					<div className='text-main text-xl font-medium'>
 						{current} из {count}
 					</div>
-					<div className='flex gap-3 xs:flex-row flex-col'>
-						<Button variant='primary' size='main' disabled={current === 1} onClick={() => api?.scrollPrev()}>
+					<div className='flex gap-3 sm:flex-row flex-col sm:w-fit w-full'>
+						<Button className='sm:w-fit w-full' variant='primary' size='main' disabled={current === 1} onClick={() => api?.scrollPrev()}>
 							Назад
 						</Button>
-						<Button variant='primary' size='main' onClick={current !== count ? () => api?.scrollNext() : () => alert('Конец')}>
+						<Button
+							className='sm:w-fit w-full'
+							variant='primary'
+							size='main'
+							onClick={current !== count ? () => api?.scrollNext() : () => alert('Конец')}
+						>
 							{current !== count ? 'Далее' : 'Завершить'}
 						</Button>
 					</div>
