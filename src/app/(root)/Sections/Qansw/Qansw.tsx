@@ -6,7 +6,7 @@ import { QanswData } from './QanswData'
 
 export function Qansw() {
 	return (
-		<Container>
+		<Container className='mb-14'>
 			<Title className='mb-14'>
 				<Title.H2>
 					Часто задаваемые <Title.Span>вопросы</Title.Span>
