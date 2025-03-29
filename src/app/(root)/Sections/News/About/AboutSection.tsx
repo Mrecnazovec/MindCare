@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export function AboutSection() {
 	return (
-		<div className='flex justify-between gap-10'>
+		<div className='flex justify-between gap-10 mb-14'>
 			<div className='relative w-1/2 h-fit max-md:hidden'>
 				<Image src='/images/about-square.png' alt='picture' width={520} height={520} />
 				<div className='absolute bottom-0 left-0 '>

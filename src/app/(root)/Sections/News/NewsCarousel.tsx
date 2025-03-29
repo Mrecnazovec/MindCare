@@ -48,7 +48,7 @@ export function NewsCarousel() {
 			<CarouselContent>
 				{NewsData.map((item, index) => (
 					<CarouselItem key={index} className='lg:basis-1/4 md:basis-1/3 xs:basis-1/2 flex items-center justify-center'>
-						<Card src={item.src} alt='Что если...' width={300} height={380}>
+						<Card src={item.src} alt='Что если...' width={300} height={380} percentage={50}>
 							<div className='line-clamp-1 text-white text-lg font-medium'>{item.title}</div>
 						</Card>
 					</CarouselItem>

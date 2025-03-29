@@ -4,6 +4,7 @@ import { NewsCarousel } from './NewsCarousel'
 import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 import { AboutSection } from './About/AboutSection'
+import { AdditionSection } from './Addition/AdditionSection'
 
 export function NewsSection() {
 	return (
@@ -23,6 +24,7 @@ export function NewsSection() {
 					</Button>
 				</Link>
 				<AboutSection />
+				<AdditionSection />
 			</Container>
 		</div>
 	)
