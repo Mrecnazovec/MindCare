@@ -1,9 +1,9 @@
 'use client'
 
-import { AboutSection } from './Sections/Specialists/About/AboutSection'
 import { Helps } from './Sections/Helps/Helps'
 import HeroSection from './Sections/Hero'
 import { Specialists } from './Sections/Specialists/Specialists'
+import { NewsSection } from './Sections/News/NewsSection'
 
 export function Home() {
 	return (
@@ -11,6 +11,7 @@ export function Home() {
 			<HeroSection />
 			<Helps />
 			<Specialists />
+			<NewsSection />
 		</div>
 	)
 }

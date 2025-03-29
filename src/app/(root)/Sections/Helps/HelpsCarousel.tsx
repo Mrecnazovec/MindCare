@@ -59,7 +59,7 @@ export function HelpsCarousel() {
 
 				{/* <CarouselPrevious />
 				<CarouselNext /> */}
-				<div className='hidden lg:flex justify-center mt-4'>
+				<div className='hidden lg:flex justify-center mt-8'>
 					{Array.from({ length: count }).map((_, index) => (
 						<button
 							onClick={() => api?.scrollTo(index)}
@@ -72,7 +72,7 @@ export function HelpsCarousel() {
 						></button>
 					))}
 				</div>
-				<div className='flex max-md:hidden lg:hidden justify-center mt-4'>
+				<div className='flex max-md:hidden lg:hidden justify-center mt-8'>
 					{Array.from({ length: count }).map((_, index) => (
 						<button
 							onClick={() => api?.scrollTo(index)}
@@ -83,7 +83,7 @@ export function HelpsCarousel() {
 						></button>
 					))}
 				</div>
-				<div className='flex md:hidden justify-center mt-4'>
+				<div className='flex md:hidden justify-center mt-8'>
 					{Array.from({ length: count2 }).map((_, index) => (
 						<button
 							onClick={() => api?.scrollTo(index)}

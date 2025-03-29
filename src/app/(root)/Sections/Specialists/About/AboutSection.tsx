@@ -4,7 +4,7 @@ import { AboutCarousel } from './AboutCarousel'
 
 export function AboutSection() {
 	return (
-		<Container className='flex flex-col items-center justify-center mb-20 sm:p-12 pt-6'>
+		<Container className='flex flex-col items-center justify-center sm:py-14 pty-6'>
 			<Title>
 				<Title.H2>
 					Что говорят <Title.Span>о нас</Title.Span>
