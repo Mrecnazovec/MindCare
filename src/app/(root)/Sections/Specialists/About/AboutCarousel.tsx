@@ -42,7 +42,7 @@ export function AboutCarousel() {
 								<p className='text-[16px] font-medium'>{item.job}</p>
 								<div className='flex justify-center mt-2 space-x-1'>
 									{[...Array(5)].map((_, i) => (
-										<span key={i} className={`text-2xl ${i <= item.rating ? 'text-white' : 'text-gray-200 opacity-20'}`}>
+										<span key={i} className={`text-2xl ${i+1 <= item.rating ? 'text-white' : 'text-gray-200 opacity-20'}`}>
 											★
 										</span>
 									))}

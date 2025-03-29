@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button'
 import { SpecialistsList } from './SpecialistsList'
 import { TestSection } from './Test/TestSection'
 import { ChooseSection } from './ChooseSection/ChooseSection'
+import { AboutSection } from './About/AboutSection'
 
 export function Specialists() {
 	return (
@@ -22,6 +23,7 @@ export function Specialists() {
 				</Button>
 				<TestSection />
 				<ChooseSection />
+				<AboutSection />
 			</Container>
 		</div>
 	)
