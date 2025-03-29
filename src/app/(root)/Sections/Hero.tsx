@@ -11,8 +11,8 @@ export default function HeroSection() {
 					<div className='absolute  inset-0 bg-gradient-to-l from-[#F1F7FB] via-transparent to-transparent w-3/5'></div>
 					<Image src='/images/hero.png' alt='Hero' className='h-full object-cover w-3/5 rounded-[20px] ' width={750} height={570} />
 				</div>
-				<div className='hidden md:flex absolute -bottom-3 rounded-[20px] w-[99%] left-1.5 bg-[#4DB9AB17] h-10 -z-10'></div>
-				<div className='hidden md:flex absolute -bottom-5 rounded-[20px] w-[97.5%] left-4 bg-[#4DB9AB24] h-10 -z-10'></div>
+				<div className='hidden md:flex absolute -bottom-3 rounded-[20px] w-[99%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB17] h-10 -z-10'></div>
+				<div className='hidden md:flex absolute -bottom-5 rounded-[20px] w-[97.5%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB24] h-10 -z-10'></div>
 
 				<div className='relative z-10 max-w-2xl md:text-left text-center'>
 					<h1 className='text-2xl md:text-6xl font-bold text-black '>
