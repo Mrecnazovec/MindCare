@@ -50,12 +50,12 @@ export function AboutCarousel() {
 								<p className='mt-4 text-white/90'>{item.text}</p>
 							</div>
 							<div
-								className={`flex absolute rounded-[20px] w-[94%] left-1/2 transform -translate-x-1/2 bg-linear-to-br from-main to-second opacity-70 h-10 -z-10 transition-all duration-1000 ${
+								className={`flex absolute rounded-main w-[94%] left-1/2 transform -translate-x-1/2 bg-linear-to-br from-main to-second opacity-70 h-10 -z-10 transition-all duration-1000 ${
 									index + 1 === current ? '-bottom-4' : '-bottom-0'
 								}`}
 							></div>
 							<div
-								className={`flex absolute rounded-[20px] w-[90%] left-1/2 transform -translate-x-1/2 bg-linear-to-br from-main to-second opacity-70 h-12 -z-10 transition-all duration-1000 ${
+								className={`flex absolute rounded-main w-[90%] left-1/2 transform -translate-x-1/2 bg-linear-to-br from-main to-second opacity-70 h-12 -z-10 transition-all duration-1000 ${
 									index + 1 === current ? '-bottom-7' : '-bottom-0'
 								}`}
 							></div>

@@ -6,13 +6,13 @@ import Link from 'next/link'
 export default function HeroSection() {
 	return (
 		<Container>
-			<div className='relative h-fit md:h-[564px] flex items-center justify-center lg:justify-end md:bg-[#F1F7FB] rounded-[20px] p-4 md:p-20 mb-14'>
+			<div className='relative h-fit md:h-[564px] flex items-center justify-center lg:justify-end md:bg-[#F1F7FB] rounded-main p-4 md:p-20 mb-14'>
 				<div className='absolute inset-0 lg:flex hidden w-[60%] xl:w-3/4'>
 					<div className='absolute  inset-0 bg-gradient-to-l from-[#F1F7FB] via-transparent to-transparent w-3/5'></div>
-					<Image src='/images/hero.png' alt='Hero' className='h-full object-cover w-3/5 rounded-[20px] ' width={750} height={570} />
+					<Image src='/images/hero.png' alt='Hero' className='h-full object-cover w-3/5 rounded-main ' width={750} height={570} />
 				</div>
-				<div className='hidden md:flex absolute -bottom-3 rounded-[20px] w-[99%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB17] h-10 -z-10'></div>
-				<div className='hidden md:flex absolute -bottom-5 rounded-[20px] w-[97.5%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB24] h-10 -z-10'></div>
+				<div className='hidden md:flex absolute -bottom-3 rounded-main w-[99%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB17] h-10 -z-10'></div>
+				<div className='hidden md:flex absolute -bottom-5 rounded-main w-[97.5%] left-1/2 transform -translate-x-1/2 bg-[#4DB9AB24] h-10 -z-10'></div>
 
 				<div className='relative z-10 max-w-2xl md:text-left text-center'>
 					<h1 className='text-2xl md:text-6xl font-bold text-black '>

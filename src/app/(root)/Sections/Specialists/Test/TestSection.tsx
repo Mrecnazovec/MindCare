@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export function TestSection() {
 	return (
-		<div className='bg-linear-to-r from-main to-second rounded-[20px] w-full sm:p-12 p-6 text-white flex lg:flex-row flex-col justify-between gap-6 mb-7'>
+		<div className='bg-linear-to-r from-main to-second rounded-main w-full sm:p-12 p-6 text-white flex lg:flex-row flex-col justify-between gap-6 mb-7'>
 			<div className='lg:max-w-[436px]'>
 				<h3 className='text-4xl mb-1 font-extrabold tracking-wider leading-14'>Тест на подбор психолога</h3>
 				<p className='text-xl mb-6 lg:mb-14 leading-8'>

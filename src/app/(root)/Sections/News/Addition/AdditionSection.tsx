@@ -15,26 +15,26 @@ export function AdditionSection() {
 				</Title.P>
 			</Title>
 			<div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
-				<Link href=''>
-					<div className='p-12 text-white font-bold text-4xl relative xs:bg-second bg-main rounded-[20px]'>
+				<Link href='' className='hover:opacity-90 transition-opacity'>
+					<div className='p-12 text-white font-bold text-4xl relative xs:bg-second bg-main rounded-main'>
 						<p>Тесты</p>
 						<Image src='/icons/additionalSection_tests.svg' alt='test icon' width={150} height={150} className='absolute -top-8 right-7' />
 					</div>
 				</Link>
-				<Link href=''>
-					<div className='p-12 text-white font-bold text-4xl relative xs:bg-main bg-second rounded-[20px]'>
+				<Link href='' className='hover:opacity-90 transition-opacity'>
+					<div className='p-12 text-white font-bold text-4xl relative xs:bg-main bg-second rounded-main'>
 						<p>Статьи</p>
 						<Image src='/icons/additionalSection_doc.svg' alt='test icon' width={150} height={150} className='absolute -top-0 right-7' />
 					</div>
 				</Link>
-				<Link href=''>
-					<div className='p-12 text-white font-bold text-4xl relative bg-main rounded-[20px]'>
+				<Link href='' className='hover:opacity-90 transition-opacity'>
+					<div className='p-12 text-white font-bold text-4xl relative bg-main rounded-main'>
 						<p>Интервью</p>
 						<Image src='/icons/additionalSection_message.svg' alt='test icon' width={150} height={150} className='absolute -top-0 right-7' />
 					</div>
 				</Link>
-				<Link href=''>
-					<div className='p-12 text-white font-bold text-4xl relative bg-second rounded-[20px]'>
+				<Link href='' className='hover:opacity-90 transition-opacity'>
+					<div className='p-12 text-white font-bold text-4xl relative bg-second rounded-main'>
 						<p>Истории</p>
 						<Image src='/icons/additionalSection_history.svg' alt='test icon' width={150} height={150} className='absolute -top-0 right-7' />
 					</div>

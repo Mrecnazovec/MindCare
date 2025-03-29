@@ -24,7 +24,7 @@ export function TestSlider() {
 	}, [api])
 
 	return (
-		<div className='bg-white text-[#242424] xl:p-10 p-5 rounded-[20px] xl:max-w-[600px] lg:max-w-[450px]'>
+		<div className='bg-white text-[#242424] xl:p-10 p-5 rounded-main xl:max-w-[600px] lg:max-w-[450px]'>
 			<Carousel
 				setApi={setApi}
 				opts={{

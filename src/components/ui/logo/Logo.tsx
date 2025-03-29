@@ -6,9 +6,9 @@ export function Logo() {
 	return (
 		<Link
 			href={PUBLIC_URL.home()}
-			className='text-main flex gap-1.5 items-center justify-center text-4xl font-semibold hover:opacity-75 transition-opacity self-start'
+			className='text-main flex items-center justify-center text-4xl font-semibold hover:opacity-75 transition-opacity self-start'
 		>
-			<Image src='/icons/Logo.png' alt='logo' width={55} height={55} />
+			<Image src='/icons/Logo.png' alt='logo' width={55} height={55} className='mr-1.5' />
 			Mind<span className='text-second'>Care</span>
 		</Link>
 	)
