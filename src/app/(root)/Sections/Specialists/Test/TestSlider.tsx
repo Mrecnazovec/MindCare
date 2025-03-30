@@ -1,4 +1,3 @@
-import { TestData } from '@/app/(root)/sections/specialists/Test/TestData'
 import { Button } from '@/components/ui/Button'
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from '@/components/ui/Carousel'
 import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form-elements/Form'
@@ -6,6 +5,7 @@ import { Label } from '@/components/ui/form-elements/Label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/RadioGroup'
 import { useEffect, useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
+import { TestData } from './TestData'
 
 interface ITestSlider {
 	q1: string

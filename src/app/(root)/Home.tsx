@@ -1,11 +1,13 @@
 'use client'
 
-import { FormSection } from "./sections/form-section/FormSection"
-import { Helps } from "./sections/helps/Helps"
-import HeroSection from "./sections/Hero"
-import { NewsSection } from "./sections/news/NewsSection"
-import { Qansw } from "./sections/qansw/Qansw"
-import { Specialists } from "./sections/specialists/Specialists"
+import { FormSection } from "./Sections/form-section/FormSection"
+import { Helps } from "./Sections/helps/Helps"
+import HeroSection from "./Sections/Hero"
+import { NewsSection } from "./Sections/news/NewsSection"
+import { Qansw } from "./Sections/qansw/Qansw"
+import { Specialists } from "./Sections/specialists/Specialists"
+
+
 
 
 
