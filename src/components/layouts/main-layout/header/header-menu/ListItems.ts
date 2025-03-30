@@ -32,3 +32,69 @@ export const Education = [
 		href: '',
 	},
 ]
+
+export const ForClient = [
+	{
+		title: 'Направления',
+		href: '',
+	},
+	{
+		title: 'Каталог психологов',
+		href: '',
+	},
+	{
+		title: 'Сертификат на консультацию',
+		href: '',
+	},
+]
+
+export const ForPsychologist = [
+	{
+		title: 'Супервизия',
+		href: '',
+	},
+	{
+		title: 'Как зарегистрироваться?',
+		href: '',
+	},
+	{
+		title: 'Тарифы',
+		href: '',
+	},
+]
+
+export const Interesting = [
+	{
+		title: 'Статьи',
+		href: '',
+	},
+	{
+		title: 'Кейсы',
+		href: '',
+	},
+	{
+		title: 'Интервью',
+		href: '',
+	},
+	{
+		title: 'Психологические тесты',
+		href: '',
+	},
+]
+
+
+
+export const AboutUs = [
+	{
+		title: 'Команда',
+		href: '',
+	},
+	{
+		title: 'Контакты',
+		href: '',
+	},
+	{
+		title: 'Частые вопросы',
+		href: '',
+	},
+]
