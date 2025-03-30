@@ -6,7 +6,7 @@ import { PUBLIC_URL } from '@/config/url.config'
 import { SpecialistsList } from './SpecialistsList'
 import { TestSection } from './Test/TestSection'
 import { ChooseSection } from './choose-section/ChooseSection'
-import { AboutSection } from './about/AboutSection'
+import { AboutSection } from './About/AboutSection'
 
 export function Specialists() {
 	return (
