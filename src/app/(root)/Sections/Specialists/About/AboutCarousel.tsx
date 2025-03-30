@@ -2,8 +2,8 @@ import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/Carouse
 import { type CarouselApi } from '@/components/ui/Carousel'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { AboutData } from './AboutData'
 import { cn } from '@/lib/utils'
+import { AboutData } from './AboutData'
 
 export function AboutCarousel() {
 	const [api, setApi] = useState<CarouselApi>()

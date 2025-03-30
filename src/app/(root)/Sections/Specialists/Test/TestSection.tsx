@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/Button'
-import { TestSlider } from './TestSlider'
 import Link from 'next/link'
 import { PUBLIC_URL } from '@/config/url.config'
+import { TestSlider } from './TestSlider'
 
 export function TestSection() {
 	return (

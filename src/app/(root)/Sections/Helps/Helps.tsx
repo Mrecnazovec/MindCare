@@ -1,8 +1,8 @@
 import { Title } from '@/components/ui/Title'
-import { HelpsCarousel } from './HelpsCarousel'
 import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 import { Container } from '@/components/ui/Container'
+import { HelpsCarousel } from './HelpsCarousel'
 
 export function Helps() {
 	return (
