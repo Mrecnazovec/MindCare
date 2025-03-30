@@ -3,8 +3,8 @@ import { Title } from '@/components/ui/Title'
 import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 import { NewsCarousel } from './NewsCarousel'
-import { AboutSection } from './about/AboutSection'
-import { AdditionSection } from './addition/AdditionSection'
+import { AboutSection } from './About/AboutSection'
+import { AdditionSection } from './Addition/AdditionSection'
 
 export function NewsSection() {
 	return (
