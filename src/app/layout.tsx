@@ -3,6 +3,7 @@ import { Noto_Sans } from 'next/font/google'
 import './globals.css'
 import { SITE_AUTHOR, SITE_DESCRIPTION, SITE_KEYWORDS, SITE_NAME } from '@/constants/seo-constants'
 import { Providers } from './providers'
+import NextTopLoader from 'nextjs-toploader'
 
 const notoSans = Noto_Sans({
 	variable: '--font-noto-sans',
@@ -27,6 +28,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={`${notoSans.variable} antialiased`}>
+				<NextTopLoader showSpinner={false} />
 				<h1 className='sr-only'>Mind Care</h1>
 				<Providers>{children}</Providers>
 			</body>

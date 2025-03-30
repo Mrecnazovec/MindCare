@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/Button'
 import { TestSlider } from './TestSlider'
 import Link from 'next/link'
+import { PUBLIC_URL } from '@/config/url.config'
 
 export function TestSection() {
 	return (
@@ -11,7 +12,7 @@ export function TestSection() {
 					Lorem ipsum dolor sit amet consectetur. Malesuada pharetra orci gravida fames eu semper sed amet morbi. <br /> Varius pretium in aliquam
 					laoreet felis.{' '}
 				</p>
-				<Link href=''>
+				<Link href={PUBLIC_URL.catalog()}>
 					<Button variant='white' size='main' className='sm:w-fit w-full'>
 						Выбрать психолога
 					</Button>

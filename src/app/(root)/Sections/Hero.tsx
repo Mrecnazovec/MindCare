@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/ui/Container'
+import { PUBLIC_URL } from '@/config/url.config'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -22,7 +23,7 @@ export default function HeroSection() {
 						Психологическое состояние тоже нуждается в заботе. <br className='hidden md:flex' /> Найди себя. Преодолей страхи. Живи полной жизнью!
 					</p>
 					<div className='mt-6 flex flex-col justify-center gap-5 items-center  md:flex-row'>
-						<Link href=''>
+						<Link href={PUBLIC_URL.catalog()}>
 							<Button variant='primary' size='main' className='shadow-button py-6 px-10'>
 								Выбрать психолога
 							</Button>

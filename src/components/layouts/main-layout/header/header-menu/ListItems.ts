@@ -1,3 +1,5 @@
+import { PUBLIC_URL } from '@/config/url.config'
+
 export interface ListItems {
 	title: string
 	href: string
@@ -40,7 +42,7 @@ export const ForClient = [
 	},
 	{
 		title: 'Каталог психологов',
-		href: '',
+		href: PUBLIC_URL.catalog(),
 	},
 	{
 		title: 'Сертификат на консультацию',
@@ -81,8 +83,6 @@ export const Interesting = [
 		href: '',
 	},
 ]
-
-
 
 export const AboutUs = [
 	{

@@ -3,8 +3,10 @@ import { Title } from '@/components/ui/Title'
 import { Button } from '@/components/ui/Button'
 import { SpecialistsList } from './SpecialistsList'
 import { TestSection } from './Test/TestSection'
-import { ChooseSection } from './ChooseSection/ChooseSection'
-import { AboutSection } from './About/AboutSection'
+import { ChooseSection } from './choose-section/ChooseSection'
+import { AboutSection } from './about/AboutSection'
+import Link from 'next/link'
+import { PUBLIC_URL } from '@/config/url.config'
 
 export function Specialists() {
 	return (
@@ -18,9 +20,11 @@ export function Specialists() {
 					</Title.P>
 				</Title>
 				<SpecialistsList />
-				<Button variant='primary' size='main' className='mb-32'>
-					Посмотреть все
-				</Button>
+				<Link href={PUBLIC_URL.catalog()}>
+					<Button variant='primary' size='main' className='mb-32'>
+						Посмотреть все
+					</Button>
+				</Link>
 				<TestSection />
 				<ChooseSection />
 				<AboutSection />
