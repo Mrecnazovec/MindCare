@@ -44,7 +44,7 @@ export function CatalogFilter() {
 	}, [type, role, isYoung, gender, theme, approach, format, country])
 
 	return (
-		<div className='md:col-span-2 md:col-span-1 p-5 rounded-main bg-white shadow space-y-3'>
+		<div className='md:col-span-2 col-span-1 p-5 rounded-main bg-white shadow space-y-3'>
 			<div className='flex items-center gap-2 text-lg text-main font-semibold mb-3'>
 				<Image src='/icons/filter.svg' alt='Фильтр' width={24} height={24} />
 				Фильтр

@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/Container'
 import { Title } from '@/components/ui/Title'
 import { CatalogFilter } from './catalog-elements/CatalogFilter'
 import { CatalogList } from './catalog-elements/CatalogList'
+import { Suspense } from 'react'
 
 export function Catalog() {
 	return (
@@ -27,7 +28,9 @@ export function Catalog() {
 					</Title.H2>
 				</Title>
 				<div className='grid md:grid-cols-5 grid-cols-1 gap-10'>
-					<CatalogFilter />
+					<Suspense>
+						<CatalogFilter />
+					</Suspense>
 					<CatalogList />
 				</div>
 			</Container>
