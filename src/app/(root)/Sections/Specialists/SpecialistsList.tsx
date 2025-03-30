@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Card } from '@/components/ui/Card'
 import { ArrowRight } from 'lucide-react'
-import { SpecialistsData } from './SpecialistData'
+import { SpecialistsData } from '../../../../data/SpecialistData'
 
 export function SpecialistsList() {
 	return (

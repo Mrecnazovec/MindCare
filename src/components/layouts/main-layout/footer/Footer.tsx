@@ -6,11 +6,11 @@ import Link from 'next/link'
 export function Footer() {
 	return (
 		<footer className='bg-[#ECF4FA]'>
-			<div className='container mx-auto p-5 gap-x-12 h-full sm:flex justify-between space-y-6 text-[#424242]'>
+			<div className='container mx-auto p-5 gap-x-12 h-full sm:flex justify-between space-y-6 text-submuted'>
 				<Logo />
 				<FooterMenu />
 			</div>
-			<Container className='flex items-center justify-center gap-5 flex-wrap text-[#424242]'>
+			<Container className='flex items-center justify-center gap-5 flex-wrap text-submuted'>
 				<Link href='' className='hover:text-main transition-[color]'>
 					Политика конфиденциальности
 				</Link>
