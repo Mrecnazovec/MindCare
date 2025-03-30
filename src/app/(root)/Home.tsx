@@ -1,11 +1,13 @@
 'use client'
 
-import HeroSection from '@/app/(root)/sections/Hero'
-import { Helps } from '@/app/(root)/sections/helps/Helps'
-import { Specialists } from '@/app/(root)/sections/specialists/Specialists'
-import { NewsSection } from '@/app/(root)/sections/news/NewsSection'
-import { Qansw } from '@/app/(root)/sections/qansw/Qansw'
-import { FormSection } from '@/app/(root)/sections/form-section/FormSection'
+import { FormSection } from "./sections/form-section/FormSection"
+import { Helps } from "./sections/helps/Helps"
+import HeroSection from "./sections/Hero"
+import { NewsSection } from "./sections/news/NewsSection"
+import { Qansw } from "./sections/qansw/Qansw"
+import { Specialists } from "./sections/specialists/Specialists"
+
+
 
 export function Home() {
 	return (

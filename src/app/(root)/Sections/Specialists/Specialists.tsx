@@ -1,12 +1,12 @@
 import { Container } from '@/components/ui/Container'
 import { Title } from '@/components/ui/Title'
 import { Button } from '@/components/ui/Button'
-import { ChooseSection } from './choose-section/ChooseSection'
-import { AboutSection } from './about/AboutSection'
 import Link from 'next/link'
 import { PUBLIC_URL } from '@/config/url.config'
 import { SpecialistsList } from './SpecialistsList'
 import { TestSection } from './Test/TestSection'
+import { ChooseSection } from './choose-section/ChooseSection'
+import { AboutSection } from './about/AboutSection'
 
 export function Specialists() {
 	return (
