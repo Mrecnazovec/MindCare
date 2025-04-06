@@ -20,7 +20,8 @@ export function Catalog() {
 	const paramsPage = Number(searchParams.get('page'))
 
 	const [page, setPage] = useState(paramsPage || 1)
-	const totalPages = data.length / 2
+	const perPage = 2
+	const totalPages = data.length / perPage
 
 	useEffect(() => {
 		const queryParams = new URLSearchParams(window.location.search)

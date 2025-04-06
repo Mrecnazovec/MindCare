@@ -6,6 +6,7 @@ import { Checkbox } from '@/components/ui/Checkbox'
 import { Label } from '@/components/ui/form-elements/Label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/RadioGroup'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/Select'
+import { FilterTheme } from './CatalogFilterData'
 
 export function CatalogFilter() {
 	const router = useRouter()
@@ -117,7 +118,25 @@ export function CatalogFilter() {
 					<SelectContent>
 						<SelectGroup>
 							<SelectLabel>Темы для разговора</SelectLabel>
-							<SelectItem value='empty'>Выберите темы</SelectItem>
+							{FilterTheme.map((item, index) => (
+								<SelectItem key={index} value={item}>
+									{item}
+								</SelectItem>
+							))}
+						</SelectGroup>
+					</SelectContent>
+				</Select>
+			</div>
+			<div>
+				<p className='text-muted-foreground mb-2'>Психологический подход</p>
+				<Select defaultValue={approach} onValueChange={(value) => setApproach(value)}>
+					<SelectTrigger className='w-full'>
+						<SelectValue placeholder='Неважен' />
+					</SelectTrigger>
+					<SelectContent>
+						<SelectGroup>
+							<SelectLabel>Подходы</SelectLabel>
+							<SelectItem value='empty'>Неважен</SelectItem>
 							<SelectItem value='гештальт-подход'>Гештальт-подход</SelectItem>
 							<SelectItem value='психоаналитическая терапия'>Психоаналитическая терапия</SelectItem>
 							<SelectItem value='личностно-центрированная терапия'>Личностно-центрированная терапия</SelectItem>
@@ -131,20 +150,6 @@ export function CatalogFilter() {
 							<SelectItem value='психорама'>Психорама</SelectItem>
 							<SelectItem value='позитивная психотерапия'>Позитивная психотерапия</SelectItem>
 							<SelectItem value='кризисное консультирование'>Кризисное консультирование</SelectItem>
-						</SelectGroup>
-					</SelectContent>
-				</Select>
-			</div>
-			<div>
-				<p className='text-muted-foreground mb-2'>Психологический подход</p>
-				<Select defaultValue={approach} onValueChange={(value) => setApproach(value)}>
-					<SelectTrigger className='w-full'>
-						<SelectValue placeholder='Неважен' />
-					</SelectTrigger>
-					<SelectContent>
-						<SelectGroup>
-							<SelectLabel>Подходи</SelectLabel>
-							<SelectItem value='empty'>Неважен</SelectItem>
 						</SelectGroup>
 					</SelectContent>
 				</Select>
