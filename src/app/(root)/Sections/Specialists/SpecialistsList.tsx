@@ -5,7 +5,7 @@ import { SpecialistsData } from '../../../../data/SpecialistData'
 
 export function SpecialistsList() {
 	return (
-		<div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-6 mb-14'>
+		<div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-6 mb-14 w-full'>
 			{SpecialistsData.map((item, index) => (
 				<Link className='flex items-center justify-center' key={index} href={item.id}>
 					<Card src={item.src} alt={`Специалист ${item.name}`} width={300} height={400} percentage={50}>

@@ -13,7 +13,7 @@ interface CardProps {
 
 export function Card({ src, alt, height, width, children, percentage, className }: PropsWithChildren<CardProps>) {
 	return (
-		<div className={cn('relative w-fit rounded-main', className)}>
+		<div className={cn('relative w-full rounded-main')}>
 			<div
 				className={`absolute bottom-0 bg-linear-to-t from-main hover:from-second transition-all to-transparent to-${percentage}% w-full h-full rounded-main`}
 			></div>
