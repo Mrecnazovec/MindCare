@@ -156,7 +156,7 @@ export function ClaimForm() {
 								<FormControl>
 									<Textarea
 										className='rounded-[15px] border-2 border-[#E4E5E5] placeholder:text:[#E2E2E2] min-h-25 text-lg mb-4'
-										placeholder='Введите номер телефона'
+										placeholder='Введите сообщение'
 										{...field}
 									/>
 								</FormControl>
